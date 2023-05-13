@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;}
+.main{
+    width: 80%;
+    height: 500px;
+   
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+b{
+    font-size: 10px;
+    color: dodgerblue;
+
+}
+/*Login fild css cod*/
+input[type="email"]{
+border: none;
+border-bottom: 1px solid #ccc;
+width: 300px;
+height: 40px;
+outline: none;
+}
+input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    height: 40px;
+    outline: none;   
+}
+input[type="submit"]{
+    height: 30px;
+width: 100px;
+background-color: dodgerblue;
+border: none;
+border-radius: 3px;
+color: #FFF;
+cursor: pointer;
+
+    
+}
+strong{
+    font-size: 10px;
+    color: #807f7f;
+}
+i{
+    font-size: 12px;
+    color: #ccc;
+}
+.images{
+    width: 60px;
+    height: 60px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+p{
+    color: #a6a1a1;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+cursor: pointer;
+
+}
+button{
+    background: dodgerblue;
+    color: #FFF;
+    width: 230px;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    position: relative;
+    padding-left: 5px;
+    
+}
+.buttonlogo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: -2px;
+    color: #FFF;
+    left: 11px;
+    background-color: #FFF;
+}
+
+
+
+
+/*Rasponsip media quary*/
+
+
+@media screen and (min-width:700px){
+/*Login fild css cod*/
+input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    display:block;
+    margin: 0 auto;
+    
+
+  
+    }
+    input[type="password"]{
+        border: none;
+        border-bottom: 1px solid #ccc;
+        width: 300px;
+        height: 40px;
+        outline: none; 
+    display:block;
+    
+    margin: 0 auto;
+
+    
+
+    }
+
+    
+}
